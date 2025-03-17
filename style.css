@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+    background-color: rgb(48, 48, 48);
+    padding: 20px;
+    gap: 5px;
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+    display: flex;
+    flex-grow: 1;
+}
+
+.display {
+    display: flex;
+    width: 490px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.button {
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+button span {
+    font-size: 48px;
+    transform: scale(0.8);
+  }
+
+#clearButton {
+    display: flex;
+    flex-grow: 3.55;
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+#zeroButton {
+    display: flex;
+    flex-grow: 2.3;
+}
+
+#minusButton {
+    display: flex;
+    flex-grow: 1.1;
+}
+
+#equalButton {
+    display: flex;
+    flex-grow: 0.8;
+}
+
+#divisionButton, #multiplicationButton, #minusButton, #plusButton, #equalButton {
+    background-color: rgb(255, 187, 0);
+}
