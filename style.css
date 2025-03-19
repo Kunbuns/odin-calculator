@@ -25,9 +25,12 @@ body {
     background-color: lightgray;
     border-radius: 5px;
     margin: 5px;
+    font-size: 48px;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
-.button {
+button {
     display: flex;
     flex-grow: 1;
     background-color: rgb(201, 201, 201);
@@ -60,6 +63,11 @@ button span {
     flex-grow: 1.1;
 }
 
+#plusButton {
+    display: flex;
+    flex-grow: 0.95;
+}
+
 #equalButton {
     display: flex;
     flex-grow: 0.8;
@@ -67,4 +75,12 @@ button span {
 
 #divisionButton, #multiplicationButton, #minusButton, #plusButton, #equalButton {
     background-color: rgb(255, 187, 0);
+}
+
+#displayScreen {
+    text-align: right;
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
 }
